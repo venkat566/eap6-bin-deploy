@@ -74,7 +74,7 @@ fi
 # directory for later deployment
 copy_artifacts "deployments"
 
-echo " Veer - Custom Code"
+echo " Venkatasai Pulluri's - Custom Assemble Code"
 echo ${WAR_FILE_URL}
 curl -k -u ${WAR_FILE_USER}:${WAR_FILE_PASSWORD} -o ${DEPLOY_DIR}/ROOT.war -O ${WAR_FILE_URL}
 
